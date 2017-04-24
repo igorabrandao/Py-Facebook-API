@@ -1,29 +1,40 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Overview ###
 
-### What is this repository for? ###
+The Graph API is the primary way to get data out of, and put data into, Facebook's platform. It's a low-level HTTP-based API that you can use to programmatically query data, post new stories, manage ads, upload photos, and perform a variety of other tasks that an app might implement.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+The Graph API is named after the idea of a 'social graph' - a representation of the information on Facebook composed of:
 
-### How do I get set up? ###
+* nodes - basically "things" such as a User, a Photo, a Page, a Comment
+* edges - the connections between those "things", such as a Page's Photos, or a Photo's Comments
+* fields - info about those "things", such as a person's birthday, or the name of a Page
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+Specifically for this project, the data related to health units and municipal schools was used to map the incidences
+of its units in Natal city.
 
-* Writing tests
-* Code review
-* Other guidelines
+This project´s goals are:
 
-### Who do I talk to? ###
+- Access data from facebook graph API;
+- Retrieve data from user profile, pages etc;
+- Find out relevant applications with these data
 
-* Repo owner or admin
-* Other community or team contact
+### Crew ###
+
+* Ciro
+* Igor A. Brandão
+* Jose Carlos
+* Leandro Max
+
+### How to use ###
+
+1. Download the *Facebook friends likes (pages).ipynb*. 
+2. After that, use Jupyter notebook tool and access the directory with the files. Enjoy yourself! :)
+
+*Obs: It´s possible to have a preview acessing Facebook-friends-likes(pages).html*
+
+### Final considerations ###
+
+The experience of work with Python and facebook API graph, showed to us the potential of data analysis usign the social
+network. However there are many restrictions related to data access security, where most of the edges cannot be accessed.
